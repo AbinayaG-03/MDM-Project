@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="833b60a247018b90bd71e30b216d4333" extends="task" label="Customer Data" max_length="40" name="x_1800933_mdm_pr_0_customer_data" type="collection">
+        <element label="Customer Name" max_length="20" name="customer_name" type="string"/>
+    </element>
+</database>
