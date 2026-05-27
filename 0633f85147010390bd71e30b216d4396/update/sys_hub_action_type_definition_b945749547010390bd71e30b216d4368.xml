@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>test action</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>mdm_action</internal_name>
+        <label_cache>[{"name":"{{action.input1}}","label":"action➛input1","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.input2}}","label":"action➛input2","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[182d24a8-2191-434b-9ffc-461fed266fa0].c}}","label":"step➛Script step➛c","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>8ef57cd547010390bd71e30b216d4317</master_snapshot>
+        <master_snapshot_digest/>
+        <name>MDM Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:20:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b945749547010390bd71e30b216d4368</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>MDM Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b945749547010390bd71e30b216d4368</sys_update_name>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b945749547010390bd71e30b216d4368"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b945749547010390bd71e30b216d4368"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b945749547010390bd71e30b216d4368</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>24f5f8d547010390bd71e30b216d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">64f5f8d547010390bd71e30b216d43b2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>b945749547010390bd71e30b216d4368</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>68f5f8d547010390bd71e30b216d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">98f5f8d547010390bd71e30b216d43a3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b945749547010390bd71e30b216d4368"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>c</field>
+        <id>b945749547010390bd71e30b216d4368</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>e4f5f8d547010390bd71e30b216d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</table>
+        <value>{{step[182d24a8-2191-434b-9ffc-461fed266fa0].c}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>b945749547010390bd71e30b216d4368</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>60f5f8d547010390bd71e30b216d43f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>b945749547010390bd71e30b216d4368</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>2cf5f8d547010390bd71e30b216d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=b945749547010390bd71e30b216d4368^sys_idNOT INd8f5f8d547010390bd71e30b216d4373"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MDM Action">b945749547010390bd71e30b216d4368</action>
+        <cid>182d24a8-2191-434b-9ffc-461fed266fa0</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>d8f5f8d547010390bd71e30b216d4373</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f5f8d547010390bd71e30b216d4373</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>10f5f8d547010390bd71e30b216d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+var c = parseInt(inputs.a)*parseInt(inputs.b);&#13;
+outputs.c = parseInt(c);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d8f5f8d547010390bd71e30b216d4373</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>50f5f8d547010390bd71e30b216d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>a</field>
+        <id>d8f5f8d547010390bd71e30b216d4373</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>54f5f8d547010390bd71e30b216d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d8f5f8d547010390bd71e30b216d4373</table>
+        <value>{{action.input1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>d8f5f8d547010390bd71e30b216d4373</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>50f5f8d547010390bd71e30b216d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>b</field>
+        <id>d8f5f8d547010390bd71e30b216d4373</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>98f5f8d547010390bd71e30b216d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_d8f5f8d547010390bd71e30b216d4373</table>
+        <value>{{action.input2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>d8f5f8d547010390bd71e30b216d4373</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>9cf5f8d547010390bd71e30b216d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d8f5f8d547010390bd71e30b216d4373^id=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d8f5f8d547010390bd71e30b216d4373^sys_idNOT IN94f5f8d547010390bd71e30b216d4383,9cf5f8d547010390bd71e30b216d437d"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>b</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d8f5f8d547010390bd71e30b216d4373</model>
+        <model_id>d8f5f8d547010390bd71e30b216d4373</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d8f5f8d547010390bd71e30b216d4373</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>94f5f8d547010390bd71e30b216d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>a</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d8f5f8d547010390bd71e30b216d4373</model>
+        <model_id>d8f5f8d547010390bd71e30b216d4373</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_d8f5f8d547010390bd71e30b216d4373</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>9cf5f8d547010390bd71e30b216d437d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d8f5f8d547010390bd71e30b216d4373^sys_idNOT IN50f5f8d547010390bd71e30b216d4388"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=273c39e1-b103-4f08-bd11-96a515b48fde</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>c</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>c</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">d8f5f8d547010390bd71e30b216d4373</model>
+        <model_id>d8f5f8d547010390bd71e30b216d4373</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d8f5f8d547010390bd71e30b216d4373</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>50f5f8d547010390bd71e30b216d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d8f5f8d547010390bd71e30b216d4373"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>c</element>
+        <help/>
+        <hint/>
+        <label>c</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d8f5f8d547010390bd71e30b216d4373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>5cf5f8d547010390bd71e30b216d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=b945749547010390bd71e30b216d4368^sys_idNOT INc8f5f89547010390bd71e30b216d4383,ccf5f8d547010390bd71e30b216d4330"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0d53d115-f5e4-4cb7-9545-7c01f1f29bb8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">b945749547010390bd71e30b216d4368</model>
+        <model_id>b945749547010390bd71e30b216d4368</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_b945749547010390bd71e30b216d4368</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:09</sys_created_on>
+        <sys_id>c8f5f89547010390bd71e30b216d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c8f5f89547010390bd71e30b216d4383"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d71c0046-31b4-439c-911d-4a55605d36b7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input2</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">b945749547010390bd71e30b216d4368</model>
+        <model_id>b945749547010390bd71e30b216d4368</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_b945749547010390bd71e30b216d4368</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:09</sys_created_on>
+        <sys_id>ccf5f8d547010390bd71e30b216d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ccf5f8d547010390bd71e30b216d4330"/>
+    <sys_hub_action_output action="delete_multiple" query="model=b945749547010390bd71e30b216d4368^sys_idNOT IN64f5f8d547010390bd71e30b216d43b2,98f5f8d547010390bd71e30b216d43a3,ecf5f8d547010390bd71e30b216d43ab"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a4f3c781-cdfc-4216-bb79-5ddcfab34107,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="MDM Action">b945749547010390bd71e30b216d4368</model>
+        <model_id>b945749547010390bd71e30b216d4368</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>64f5f8d547010390bd71e30b216d43b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=64f5f8d547010390bd71e30b216d43b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=64f5f8d547010390bd71e30b216d43b2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0f9ea3ef-5c16-4db2-8651-5b6590fd109f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="MDM Action">b945749547010390bd71e30b216d4368</model>
+        <model_id>b945749547010390bd71e30b216d4368</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>98f5f8d547010390bd71e30b216d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98f5f8d547010390bd71e30b216d43a3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=98f5f8d547010390bd71e30b216d43a3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=6a01b633-f3b7-4d04-b540-f1f362bb18a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>c</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>c</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">b945749547010390bd71e30b216d4368</model>
+        <model_id>b945749547010390bd71e30b216d4368</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>ecf5f8d547010390bd71e30b216d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ecf5f8d547010390bd71e30b216d43ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ecf5f8d547010390bd71e30b216d43ab"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b945749547010390bd71e30b216d4368"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=b945749547010390bd71e30b216d4368^sys_idNOT IN28f5f8d547010390bd71e30b216d43f8"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="MDM Action">b945749547010390bd71e30b216d4368</action_type_id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>28f5f8d547010390bd71e30b216d43f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=28f5f8d547010390bd71e30b216d43f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input2</element>
+        <help/>
+        <hint/>
+        <label>input2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_b945749547010390bd71e30b216d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:10</sys_created_on>
+        <sys_id>1cf5f8d547010390bd71e30b216d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input1</element>
+        <help/>
+        <hint/>
+        <label>input1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_b945749547010390bd71e30b216d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:09</sys_created_on>
+        <sys_id>48f5f8d547010390bd71e30b216d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_b945749547010390bd71e30b216d4368"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>68f5f8d547010390bd71e30b216d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>c</element>
+        <help/>
+        <hint/>
+        <label>c</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>ecf5f8d547010390bd71e30b216d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:11</sys_created_on>
+        <sys_id>ecf5f8d547010390bd71e30b216d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_b945749547010390bd71e30b216d4368"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=b945749547010390bd71e30b216d4368^sys_idNOT IN2ef57cd547010390bd71e30b216d43d8"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="MDM Action">b945749547010390bd71e30b216d4368</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2ef57cd547010390bd71e30b216d43d8","name":"plan","plan_signature":null}}</plan>
+        <snapshot>d2f57cd547010390bd71e30b216d438c</snapshot>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ef57cd547010390bd71e30b216d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:19</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>test action</description>
+        <flow_priority/>
+        <internal_name>mdm_action</internal_name>
+        <label_cache>[{"name":"{{action.input1}}","label":"action➛input1","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.input2}}","label":"action➛input2","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[182d24a8-2191-434b-9ffc-461fed266fa0].c}}","label":"step➛Script step➛c","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>MDM Action</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="MDM Action">b945749547010390bd71e30b216d4368</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ef57cd547010390bd71e30b216d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8ef57cd547010390bd71e30b216d4317"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8ef57cd547010390bd71e30b216d4317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>8ef57cd547010390bd71e30b216d4317</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>1af57cd547010390bd71e30b216d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">def57cd547010390bd71e30b216d436a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>8ef57cd547010390bd71e30b216d4317</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>5ef57cd547010390bd71e30b216d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">d2f57cd547010390bd71e30b216d435d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8ef57cd547010390bd71e30b216d4317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>c</field>
+        <id>8ef57cd547010390bd71e30b216d4317</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>daf57cd547010390bd71e30b216d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</table>
+        <value>{{step[182d24a8-2191-434b-9ffc-461fed266fa0].c}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>8ef57cd547010390bd71e30b216d4317</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>56f57cd547010390bd71e30b216d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>8ef57cd547010390bd71e30b216d4317</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>12f57cd547010390bd71e30b216d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=8ef57cd547010390bd71e30b216d4317^sys_idNOT INcef57cd547010390bd71e30b216d4332"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</action>
+        <cid>182d24a8-2191-434b-9ffc-461fed266fa0</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>cef57cd547010390bd71e30b216d4332</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cef57cd547010390bd71e30b216d4332"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cef57cd547010390bd71e30b216d4332</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>5ef57cd547010390bd71e30b216d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>cef57cd547010390bd71e30b216d4332</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>92f57cd547010390bd71e30b216d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+var c = parseInt(inputs.a)*parseInt(inputs.b);&#13;
+outputs.c = parseInt(c);&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cef57cd547010390bd71e30b216d4332"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>a</field>
+        <id>cef57cd547010390bd71e30b216d4332</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>d2f57cd547010390bd71e30b216d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_cef57cd547010390bd71e30b216d4332</table>
+        <value>{{action.input1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>cef57cd547010390bd71e30b216d4332</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>56f57cd547010390bd71e30b216d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>b</field>
+        <id>cef57cd547010390bd71e30b216d4332</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>1af57cd547010390bd71e30b216d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_cef57cd547010390bd71e30b216d4332</table>
+        <value>{{action.input2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>cef57cd547010390bd71e30b216d4332</id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>9af57cd547010390bd71e30b216d4355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cef57cd547010390bd71e30b216d4332^id=cef57cd547010390bd71e30b216d4332"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cef57cd547010390bd71e30b216d4332"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cef57cd547010390bd71e30b216d4332"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=cef57cd547010390bd71e30b216d4332^sys_idNOT IN8ef57cd547010390bd71e30b216d4339,d2f57cd547010390bd71e30b216d4340"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>a</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>a</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cef57cd547010390bd71e30b216d4332</model>
+        <model_id>cef57cd547010390bd71e30b216d4332</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_cef57cd547010390bd71e30b216d4332</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>8ef57cd547010390bd71e30b216d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>b</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>b</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cef57cd547010390bd71e30b216d4332</model>
+        <model_id>cef57cd547010390bd71e30b216d4332</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_cef57cd547010390bd71e30b216d4332</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>d2f57cd547010390bd71e30b216d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=cef57cd547010390bd71e30b216d4332^sys_idNOT IN92f57cd547010390bd71e30b216d4346"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=273c39e1-b103-4f08-bd11-96a515b48fde</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>c</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>c</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">cef57cd547010390bd71e30b216d4332</model>
+        <model_id>cef57cd547010390bd71e30b216d4332</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_cef57cd547010390bd71e30b216d4332</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>92f57cd547010390bd71e30b216d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cef57cd547010390bd71e30b216d4332"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>c</element>
+        <help/>
+        <hint/>
+        <label>c</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_cef57cd547010390bd71e30b216d4332</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>def57cd547010390bd71e30b216d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=8ef57cd547010390bd71e30b216d4317^sys_idNOT IN8af57cd547010390bd71e30b216d4326,c2f57cd547010390bd71e30b216d431f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d71c0046-31b4-439c-911d-4a55605d36b7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input2</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</model>
+        <model_id>8ef57cd547010390bd71e30b216d4317</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_8ef57cd547010390bd71e30b216d4317</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:17</sys_created_on>
+        <sys_id>8af57cd547010390bd71e30b216d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8af57cd547010390bd71e30b216d4326"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0d53d115-f5e4-4cb7-9545-7c01f1f29bb8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</model>
+        <model_id>8ef57cd547010390bd71e30b216d4317</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_8ef57cd547010390bd71e30b216d4317</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:17</sys_created_on>
+        <sys_id>c2f57cd547010390bd71e30b216d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c2f57cd547010390bd71e30b216d431f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=8ef57cd547010390bd71e30b216d4317^sys_idNOT IN5af57cd547010390bd71e30b216d4364,d2f57cd547010390bd71e30b216d435d,def57cd547010390bd71e30b216d436a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=6a01b633-f3b7-4d04-b540-f1f362bb18a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>c</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>c</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</model>
+        <model_id>8ef57cd547010390bd71e30b216d4317</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>5af57cd547010390bd71e30b216d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5af57cd547010390bd71e30b216d4364"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5af57cd547010390bd71e30b216d4364"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=0f9ea3ef-5c16-4db2-8651-5b6590fd109f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</model>
+        <model_id>8ef57cd547010390bd71e30b216d4317</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>d2f57cd547010390bd71e30b216d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d2f57cd547010390bd71e30b216d435d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d2f57cd547010390bd71e30b216d435d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=a4f3c781-cdfc-4216-bb79-5ddcfab34107,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</model>
+        <model_id>8ef57cd547010390bd71e30b216d4317</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>def57cd547010390bd71e30b216d436a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=def57cd547010390bd71e30b216d436a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=def57cd547010390bd71e30b216d436a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8ef57cd547010390bd71e30b216d4317"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=8ef57cd547010390bd71e30b216d4317^sys_idNOT IN1ef57cd547010390bd71e30b216d438a"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="MDM Action">8ef57cd547010390bd71e30b216d4317</action_type_id>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>1ef57cd547010390bd71e30b216d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1ef57cd547010390bd71e30b216d438a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input1</element>
+        <help/>
+        <hint/>
+        <label>input1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_8ef57cd547010390bd71e30b216d4317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:17</sys_created_on>
+        <sys_id>06f57cd547010390bd71e30b216d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input2</element>
+        <help/>
+        <hint/>
+        <label>input2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_8ef57cd547010390bd71e30b216d4317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>0af57cd547010390bd71e30b216d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_8ef57cd547010390bd71e30b216d4317"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>c</element>
+        <help/>
+        <hint/>
+        <label>c</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>5af57cd547010390bd71e30b216d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>5ef57cd547010390bd71e30b216d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Abinaya</sys_created_by>
+        <sys_created_on>2026-05-23 07:23:18</sys_created_on>
+        <sys_id>d2f57cd547010390bd71e30b216d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MDM Project" source="x_1800933_mdm_pr_0">0633f85147010390bd71e30b216d4396</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MDM Project">0633f85147010390bd71e30b216d4396</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Abinaya</sys_updated_by>
+        <sys_updated_on>2026-05-23 07:23:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_8ef57cd547010390bd71e30b216d4317"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>b945749547010390bd71e30b216d4368</sys_id>
+        <latest_snapshot>8ef57cd547010390bd71e30b216d4317</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch6-01-16-2026_02-02-2026_1554.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
