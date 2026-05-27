@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dda3b89147010390bd71e30b216d43f8" extends="task" label="MDM Table" max_length="40" name="x_1800933_mdm_pr_0_mdm_table" type="collection"/>
+</database>
